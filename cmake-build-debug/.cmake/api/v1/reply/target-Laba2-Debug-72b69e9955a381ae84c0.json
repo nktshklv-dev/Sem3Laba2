@@ -89,7 +89,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -103,7 +104,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Sequence.h",
+			"path" : "ISequence.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "DynamicArray.h",
 			"sourceGroupIndex" : 1
 		}
 	],
