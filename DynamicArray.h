@@ -1,8 +1,6 @@
 #ifndef DYNAMICARRAY_H
 #define DYNAMICARRAY_H
 
-#include <__filesystem/recursive_directory_iterator.h>
-
 #include "ISequence.h"
 
 template <class T>
@@ -16,7 +14,7 @@ private:
 
         int minSize = (newSize < size) ? newSize : size;
 
-        for (int i = 0; i < newSize; ++i) {
+        for (int i = 0; i < minSize; ++i) {
             newData[i] = data[i];
         }
         delete[] data;
@@ -42,8 +40,7 @@ public:
             return *current;
         }
         typename ISequence<T>::Iterator& operator ++ () override {
-            current++;
-
+            ++current;
             return *this;
         }
     };
@@ -76,7 +73,7 @@ public:
         }
     }
 
-    ~DynamicArray() {
+    ~DynamicArray() override{
         delete[] data;
     }
 
@@ -101,6 +98,7 @@ public:
         a = b;
         b = temp;
     }
+
     void Set(int index, T value) override {
         data[index] = value;
     }
@@ -153,7 +151,7 @@ public:
     void InsertAt(T data, int index) override {
         Resize(size + 1);
 
-        for (int i = size - 1; i > index; --i);
+        for (int i = size - 1; i > index; --i)
         {
             Set(i, GetElement(i - 1));
         }
