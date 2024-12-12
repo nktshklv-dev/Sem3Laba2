@@ -7,4 +7,6 @@ add_executable(Laba2 main.cpp
         ISequence.h
         DynamicArray.h
         ISorter.h
-        InsertionSorter.h)
+        InsertionSorter.h
+        MergeSorter.h
+)
