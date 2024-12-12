@@ -90,7 +90,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -110,6 +111,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "DynamicArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ISorter.h",
 			"sourceGroupIndex" : 1
 		}
 	],
