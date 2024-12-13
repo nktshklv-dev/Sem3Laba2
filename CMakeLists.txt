@@ -9,4 +9,5 @@ add_executable(Laba2 main.cpp
         ISorter.h
         InsertionSorter.h
         MergeSorter.h
+        HeapSorter.h
 )
