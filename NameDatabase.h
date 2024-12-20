@@ -1,0 +1,112 @@
+#ifndef NAMEDATABASE_H
+#define NAMEDATABASE_H
+
+#include <string>
+
+const static int firstNameCount = 200;
+const static int lastNameCount = 200;
+const static int middleNameCount = 200;
+
+const std::string firstNameStorage[firstNameCount] = {
+    "Liam", "Emma", "Noah", "Olivia", "Oliver", "Ava", "Elijah", "Sophia",
+    "William", "Isabella", "James", "Mia", "Benjamin", "Amelia", "Lucas",
+    "Harper", "Mason", "Evelyn", "Ethan", "Abigail", "Alexander", "Emily",
+    "Henry", "Ella", "Jacob", "Scarlett", "Michael", "Grace", "Daniel",
+    "Chloe", "Logan", "Victoria", "Jackson", "Aria", "Sebastian", "Lily",
+    "Aiden", "Aurora", "Matthew", "Zoe", "Samuel", "Natalie", "David",
+    "Hannah", "Joseph", "Layla", "Carter", "Brooklyn", "Owen", "Ellie",
+    "Wyatt", "Violet", "John", "Stella", "Jack", "Paisley", "Luke", "Bella",
+    "Levi", "Nova", "Isaac", "Savannah", "Gabriel", "Addison", "Julian",
+    "Hazel", "Anthony", "Audrey", "Dylan", "Maya", "Leo", "Penelope",
+    "Jaxon", "Aaliyah", "Grayson", "Elena", "Christopher", "Claire",
+    "Joshua", "Skylar", "Andrew", "Lucy", "Theodore", "Anna", "Caleb",
+    "Ruby", "Ryan", "Sophie", "Asher", "Alice", "Nathan", "Ivy", "Thomas",
+    "Everly", "Elias", "Sadie", "Charles", "Autumn", "Ezra", "Kennedy",
+    "Christian", "Madeline", "Hunter", "Sarah", "Connor", "Serenity",
+    "Adrian", "Samantha", "Jonathan", "Cora", "Nolan", "Rylee", "Jeremiah",
+    "Eva", "Easton", "Emilia", "Colton", "Piper", "Cameron", "Lydia",
+    "Declan", "Aubrey", "Roman", "Willow", "Weston", "Iris", "Brayden",
+    "Delilah", "Luca", "Jasmine", "Elias", "Raelynn", "Miles", "Athena",
+    "Robert", "Adeline", "Nicholas", "Arya", "Evan", "Liliana", "Greyson",
+    "Maria", "Ian", "Nevaeh", "Carson", "Eliana", "Dominic", "Faith",
+    "Axel", "Trinity", "Santiago", "Valentina", "Brody", "Amara", "Xander",
+    "Brielle", "Cooper", "Melody", "Leonardo", "Eliza", "Jason", "Naomi",
+    "Parker", "Kylie", "Hudson", "Clara", "Sawyer", "Reese", "Adam",
+    "Mackenzie", "Angel", "Margaret", "Maverick", "Daisy", "Beau", "Londyn",
+    "Weston", "Alaina", "Chase", "Athena", "Nolan", "Celeste", "Ashton",
+    "Anya", "Tristan", "Sienna", "Elliot", "Camille", "Hayden", "Giselle",
+    "Marcus", "Tessa", "Emmett", "Zariah", "Archer", "Freya", "Rylan",
+    "Nova", "Felix", "Elsie"
+};
+
+const std::string lastNameStorage[lastNameCount] = {
+    "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller",
+    "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez",
+    "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin",
+    "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark",
+    "Ramirez", "Lewis", "Robinson", "Walker", "Young", "Allen", "King",
+    "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores", "Green",
+    "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell",
+    "Carter", "Roberts", "Gomez", "Phillips", "Evans", "Turner", "Diaz",
+    "Parker", "Cruz", "Edwards", "Collins", "Reyes", "Stewart", "Morris",
+    "Morales", "Murphy", "Cook", "Rogers", "Gutierrez", "Ortiz", "Morgan",
+    "Cooper", "Peterson", "Bailey", "Reed", "Kelly", "Howard", "Ramos",
+    "Kim", "Cox", "Ward", "Richardson", "Watson", "Brooks", "Chavez",
+    "Wood", "James", "Bennett", "Gray", "Mendoza", "Ruiz", "Hughes",
+    "Price", "Alvarez", "Castillo", "Sanders", "Patel", "Myers", "Long",
+    "Ross", "Foster", "Jimenez", "Powell", "Jenkins", "Perry", "Russell",
+    "Sullivan", "Bell", "Coleman", "Butler", "Henderson", "Barnes",
+    "Gonzales", "Fisher", "Vasquez", "Simmons", "Romero", "Jordan",
+    "Patterson", "Alexander", "Hamilton", "Graham", "Reynolds", "Griffin",
+    "Wallace", "Moreno", "West", "Cole", "Hayes", "Bryant", "Herrera",
+    "Gibson", "Ellis", "Tran", "Medina", "Aguilar", "Stevens", "Murray",
+    "Ford", "Castro", "Marshall", "Owens", "Harrison", "Fernandez",
+    "McDonald", "Woods", "Washington", "Kennedy", "Wells", "Vargas",
+    "Henry", "Chen", "Freeman", "Webb", "Tucker", "Guzman", "Burns",
+    "Crawford", "Olson", "Simpson", "Porter", "Hunter", "Gordon",
+    "Mendez", "Silva", "Shaw", "Snyder", "Mason", "Dixon", "Munoz",
+    "Hunt", "Hicks", "Holmes", "Palmer", "Wagner", "Black", "Robertson",
+    "Boyd", "Rose", "Stone", "Salazar", "Fox", "Warren", "Mills",
+    "Meyer", "Rice", "Schmidt", "Garza", "Daniels", "Ferguson", "Nichols",
+    "Stephens", "Soto", "Weaver", "Ryan", "Gardner", "Payne", "Grant",
+    "Dunn", "Kelley", "Spencer", "Hawkins"
+};
+
+static std::string middleNameStorage[middleNameCount] = {
+    "Jameson", "Williamson", "Edwardson", "Harrison", "Robertson",
+    "Jackson", "Thompson", "Davidson", "Richardson", "Thomason",
+    "Johnston", "Anderson", "Samuelson", "Benjaminson", "Henryson",
+    "Eliason", "Matthewson", "Danielson", "Josephson", "Michaels",
+    "Christopher", "Jonathan", "Nicholas", "Anthony", "Alexander",
+    "Nathaniel", "Zachary", "Gregory", "Jefferson", "Patrickson",
+    "Andrewson", "Lawrenceson", "Charleston", "Jacobson", "Timothyson",
+    "Jeremiahson", "Hughson", "Simonson", "Stephen", "Franklin",
+    "Douglas", "Edison", "Clarkson", "Watson", "Peterson", "Carlson",
+    "Nelson", "Hudson", "Emerson", "Benson", "Wilson", "Patterson",
+    "Davison", "Henderson", "Garrison", "Morrison", "Harrison",
+    "Masonson", "Ellison", "Ericson", "Paulson", "Markson", "Peter",
+    "Bryson", "Oliver", "Theodore", "Weston", "Levi", "Asher",
+    "Evan", "Owen", "Carson", "Rowan", "Tyson", "Bryant", "Collins",
+    "Hunter", "Tanner", "Dawson", "Gibson", "Cameron", "Loganson",
+    "Elliot", "Reedson", "Porterson", "Spencer", "Tyler", "Brandon",
+    "Grayson", "Colton", "Austinson", "Cooper", "Carter", "Sawyer",
+    "Donovan", "Kendrick", "Finnegan", "Lincoln", "Parker", "Ryder",
+    "Tucker", "Blake", "Brooks", "Hudson", "Easton", "Jenson",
+    "Lawson", "Maxson", "Remington", "Sterling", "Wallace", "Ellis",
+    "Graham", "Dixon", "Fletcher", "Barrett", "Hollis", "Quincy",
+    "Reynolds", "Sullivan", "Tristan", "Wesley", "Bennett", "Brock",
+    "Chandler", "Everett", "Foster", "Harlow", "Jarrett", "Lennon",
+    "Maddox", "Nash", "Preston", "Quinton", "Reagan", "Rivers",
+    "Tate", "Vaughn", "Warren", "Adler", "Beckett", "Cullen",
+    "Dexter", "Finley", "Hale", "Irving", "Keaton", "Langston",
+    "Monroe", "Prescott", "Sterling", "Tennyson", "Vance", "Winslow",
+    "Yates", "Zane", "Bryant", "Carver", "Elliott", "Franklin",
+    "Gibbs", "Hughes", "Kennedy", "Lewis", "Maxwell", "Newton",
+    "Peyton", "Rowe", "Shelby", "Turner", "Vinson", "Whitman",
+    "Zander", "Quinlan", "Roscoe", "Stanley", "Terrence", "Wallace",
+    "Emmettson", "Lennox", "Harrisonson", "Beckham", "Kensington",
+    "Wellington", "Brighton", "Kingsley", "Ashford", "Montgomery",
+    "Langford", "Winslet", "Ellington", "Hollister", "Radcliffe", "Stanton", "Tennyson",
+    "Whitaker", "Ashcroft", "Bannister", "Drayton", "Kensingtonson"
+};
+#endif //NAMEDATABASE_H

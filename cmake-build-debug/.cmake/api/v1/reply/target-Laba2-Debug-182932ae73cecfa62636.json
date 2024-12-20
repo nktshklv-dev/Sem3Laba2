@@ -94,7 +94,9 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -134,6 +136,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "HeapSorter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Person.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "NameDatabase.h",
 			"sourceGroupIndex" : 1
 		}
 	],

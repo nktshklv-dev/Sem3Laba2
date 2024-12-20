@@ -10,4 +10,6 @@ add_executable(Laba2 main.cpp
         InsertionSorter.h
         MergeSorter.h
         HeapSorter.h
+        Person.h
+        NameDatabase.h
 )
