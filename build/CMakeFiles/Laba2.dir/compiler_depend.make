@@ -968,12 +968,9 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/DataCreation.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/animation.hpp \
@@ -1036,10 +1033,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_options.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h:
 
@@ -2088,8 +2081,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/DataCreation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 

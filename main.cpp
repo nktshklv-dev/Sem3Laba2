@@ -13,22 +13,13 @@
 
 using namespace ftxui;
 
-// Функция для генерации случайных чисел
-int generateRandomNumber(int min, int max) {
-    static std::random_device rd;
-    static std::mt19937 gen(rd());
-    std::uniform_int_distribution<> distrib(min, max);
-    return distrib(gen);
-}
-
 int main() {
     auto screen = ScreenInteractive::Fullscreen();
 
     int selected_main_menu = 0;
     int selected_data_type = 0;
-    std::string filename;  // Имя файла для неотсортированных данных
-    bool loading = false;  // Состояние загрузки
-    int spinner_frame = 0;  // Кадр анимации спиннера
+    bool loading = false;
+    int spinner_frame = 0;
 
     std::vector<std::string> main_menu_entries = {
         "1. Сравнить алгоритмы сортировки",
@@ -47,52 +38,92 @@ int main() {
 
     auto data_type_menu = Menu(&data_type_entries, &selected_data_type);
 
-    // Компонент для отображения индикатора загрузки
     auto loading_indicator = Renderer([&] {
         if (loading) {
             return hbox({
                 text("Данные создаются") | bold,
-                text(" "),  // Просто пробел для разделения
-                spinner(2, spinner_frame)  // Вращающийся индикатор
-            }) | center;  // Убрали border
+                text(" "),
+                spinner(2, spinner_frame)
+            }) | center;
         } else {
-            return text("");  // Пустой элемент, если загрузка не активна
+            return text("");
         }
     });
 
-    auto data_type_renderer = Renderer(data_type_menu, [&]{
-        return vbox ({
+    auto data_type_renderer = Renderer(data_type_menu, [&] {
+        return vbox({
             text("Выберите формат данных") | center | bold | color(Color::Blue),
             separator(),
             data_type_menu->Render(),
             separator(),
-            loading_indicator->Render()  // Добавляем индикатор загрузки
+            loading_indicator->Render()
         }) | border | center;
     });
 
-    // Обработчик событий для data_type_renderer
     auto data_type_component = CatchEvent(data_type_renderer, [&](Event event) {
         if (event == Event::Return) {
             switch (selected_data_type) {
-                case 0:  // Отсортированные данные
-                case 1:  // Обратно отсортированные данные
-                case 2: {  // Случайные данные
+                case 0:
                     loading = true;
                     spinner_frame = 0;
 
-                    // Запуск асинхронной задачи для имитации загрузки
                     std::thread([&] {
-                        for (int i = 0; i < 30; ++i) {  // 30 шагов по 100 мс = 3 секунды
+                        auto start_time = std::chrono::steady_clock::now();
+
+                        while (std::chrono::duration_cast<std::chrono::seconds>(
+                                   std::chrono::steady_clock::now() - start_time).count() < 23) {
+                            spinner_frame++;
+                            screen.PostEvent(Event::Custom);
                             std::this_thread::sleep_for(std::chrono::milliseconds(100));
-                            spinner_frame++;  // Обновляем кадр спиннера
-                            screen.PostEvent(Event::Custom);  // Обновляем экран
                         }
+
+                        createSortedDataFile("sorted_data.txt");
                         loading = false;
-                        screen.PostEvent(Event::Custom);  // Обновляем экран
+                        screen.PostEvent(Event::Custom);
                     }).detach();
                     break;
-                }
-                case 3:  // Назад
+
+                case 1:
+                    loading = true;
+                    spinner_frame = 0;
+
+                    std::thread([&] {
+                        auto start_time = std::chrono::steady_clock::now();
+
+                        while (std::chrono::duration_cast<std::chrono::seconds>(
+                                   std::chrono::steady_clock::now() - start_time).count() < 23) {
+                            spinner_frame++;
+                            screen.PostEvent(Event::Custom);
+                            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+                        }
+
+                        createReverseSortedDataFile("reverse_sorted_data.txt");
+                        loading = false;
+                        screen.PostEvent(Event::Custom);
+                    }).detach();
+                    break;
+
+                case 2:
+                    loading = true;
+                    spinner_frame = 0;
+
+                    std::thread([&] {
+                        auto start_time = std::chrono::steady_clock::now();
+
+                        while (std::chrono::duration_cast<std::chrono::seconds>(
+                                   std::chrono::steady_clock::now() - start_time).count() < 5) {
+                            spinner_frame++;
+                            screen.PostEvent(Event::Custom);
+                            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+                        }
+
+                        createUnsortedDataFile("random_data.txt");
+                        loading = false;
+                        screen.PostEvent(Event::Custom);
+                    }).detach();
+                    break;
+
+                case 3:
                     screen.Exit();
                     break;
             }
@@ -108,7 +139,6 @@ int main() {
                     screen.Loop(data_type_component);
                     break;
                 case 1:
-                    // Запуск тестов
                     break;
                 case 2:
                     screen.Exit();
@@ -119,7 +149,6 @@ int main() {
         return false;
     });
 
-    // Компоновка интерфейса
     auto layout = Container::Vertical({
         main_component
     });
