@@ -999,4 +999,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h
+  /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h

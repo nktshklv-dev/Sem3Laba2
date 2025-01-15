@@ -6,7 +6,7 @@ template <typename T>
 class ISorter {
 public:
    virtual ISequence<T>* Sort(ISequence<T>* seq) = 0;
-   virtual ~ISorter() = default;  // Деструктор должен быть public
+   virtual ~ISorter() = default;
 };
 
 #endif // ISORTER_H

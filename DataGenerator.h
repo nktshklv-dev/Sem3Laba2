@@ -3,8 +3,8 @@
 
 #include <fstream>
 #include <string>
-#include <algorithm> // Для std::sort
-#include <vector>    // Для std::vector
+#include <algorithm>
+#include <vector>
 #include "Person.h"
 #include "DynamicArray.h"
 
@@ -34,18 +34,15 @@ void createSortedDataFile(const std::string& fileName, int data_size = 100000) {
         persons.Set(i, Person());
     }
 
-    // Копируем данные в std::vector для сортировки
     std::vector<Person> temp(data_size);
     for (int i = 0; i < data_size; ++i) {
         temp[i] = persons.GetElement(i);
     }
 
-    // Сортируем std::vector
     std::sort(temp.begin(), temp.end(), [](const Person& a, const Person& b) {
         return a.getSSN() < b.getSSN();
     });
 
-    // Копируем отсортированные данные обратно в DynamicArray
     for (int i = 0; i < data_size; ++i) {
         persons.Set(i, temp[i]);
     }
@@ -74,18 +71,15 @@ void createReverseSortedDataFile(const std::string& fileName, int data_size = 10
         persons.Set(i, Person());
     }
 
-    // Копируем данные в std::vector для сортировки
     std::vector<Person> temp(data_size);
     for (int i = 0; i < data_size; ++i) {
         temp[i] = persons.GetElement(i);
     }
 
-    // Сортируем std::vector в обратном порядке
     std::sort(temp.begin(), temp.end(), [](const Person& a, const Person& b) {
         return a.getSSN() > b.getSSN();
     });
 
-    // Копируем отсортированные данные обратно в DynamicArray
     for (int i = 0; i < data_size; ++i) {
         persons.Set(i, temp[i]);
     }
@@ -105,6 +99,35 @@ void createReverseSortedDataFile(const std::string& fileName, int data_size = 10
              << person.getHeightInMeters() << "\n";
     }
     file.close();
+}
+
+DynamicArray<Person> loadDataFromFile(const std::string& fileName) {
+    std::ifstream file(fileName);
+    if (!file.is_open()) {
+        throw std::runtime_error("Ошибка при открытии файла");
+    }
+
+    DynamicArray<Person> persons;
+    std::string line;
+    while (std::getline(file, line)) {
+        std::stringstream ss(line);
+        std::string firstName, lastName, middleName;
+        int yearOfBirth, SSN;
+        double heightInMeters;
+        char comma;
+
+        ss >> firstName >> comma
+           >> lastName >> comma
+           >> middleName >> comma
+           >> yearOfBirth >> comma
+           >> SSN >> comma
+           >> heightInMeters;
+
+        persons.Append(Person(firstName, lastName, middleName, yearOfBirth, SSN, heightInMeters));
+    }
+
+    file.close();
+    return persons;
 }
 
 #endif // DATAGENERATOR_H
