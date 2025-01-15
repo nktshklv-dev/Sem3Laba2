@@ -4,7 +4,7 @@
 #include "ISequence.h"
 
 template <class T>
-class DynamicArray: public ISequence<T> {
+class DynamicArray : public ISequence<T> {
 private:
     T* data;
     int size;
@@ -21,29 +21,33 @@ private:
         data = newData;
         size = newSize;
     }
+
 public:
-    class DynamicArrayIterator: public  ISequence<T>::Iterator {
+    class DynamicArrayIterator : public ISequence<T>::Iterator {
     private:
         T* current;
     public:
         DynamicArrayIterator(T* current) : current(current) { }
-        bool operator ==(const typename ISequence<T>::Iterator& other) const override {
-            const DynamicArrayIterator* otherIterator = dynamic_cast<const DynamicArrayIterator*>(other);
+
+        bool operator==(const typename ISequence<T>::Iterator& other) const override {
+            const DynamicArrayIterator* otherIterator = static_cast<const DynamicArrayIterator*>(&other);
             return otherIterator && current == otherIterator->current;
         }
 
-        bool operator !=(const typename ISequence<T>::Iterator& other) const override{
+        bool operator!=(const typename ISequence<T>::Iterator& other) const override {
             return !(*this == other);
         }
 
-        T& operator * () override {
+        T& operator*() override {
             return *current;
         }
-        typename ISequence<T>::Iterator& operator ++ () override {
+
+        typename ISequence<T>::Iterator& operator++() override {
             ++current;
             return *this;
         }
     };
+
     typename ISequence<T>::Iterator* ToBegin() override {
         return new DynamicArrayIterator(data);
     }
@@ -56,28 +60,30 @@ public:
         this->size = size;
         data = new T[size];
 
-        for(int i = 0; i < size; ++i) {
+        for (int i = 0; i < size; ++i) {
             Set(i, items[i]);
         }
     }
+
     DynamicArray(int size = 0) {
         this->size = size;
         data = new T[size];
     }
-    DynamicArray(DynamicArray<T>& dynamicArray) {
+
+    DynamicArray(const DynamicArray<T>& dynamicArray) {
         size = dynamicArray.size;
         data = new T[size];
 
-        for (int i =0; i < size; ++i) {
+        for (int i = 0; i < size; ++i) {
             Set(i, dynamicArray.data[i]);
         }
     }
 
-    ~DynamicArray() override{
+    ~DynamicArray() override {
         delete[] data;
     }
 
-    T& operator [](int index) {
+    T& operator[](int index) {
         return data[index];
     }
 
@@ -93,7 +99,7 @@ public:
         return data[index];
     }
 
-    void Swap(T a, T b) override {
+    void Swap(T& a, T& b) override {
         T temp = a;
         a = b;
         b = temp;
@@ -103,13 +109,12 @@ public:
         data[index] = value;
     }
 
-    DynamicArray<T> GetSubSequence(int startIndex, int endIndex) override {
+    ISequence<T>* GetSubSequence(int startIndex, int endIndex) override {
         int length;
 
         if (endIndex > size) {
             length = size - startIndex;
-        }
-        else {
+        } else {
             length = endIndex - startIndex + 1;
 
             if (startIndex == 0) {
@@ -130,33 +135,32 @@ public:
         return size;
     }
 
-    void Append(T data) override {
-        InsertAt(data, size);
+    void Append(T item) override {
+        InsertAt(item, size);
     }
 
-    void Append( T data, int dataSize) override {
+    void Append(T* items, int dataSize) override {
         int oldSize = size;
 
         Resize(size + dataSize);
 
-        for(int i = oldSize; i < oldSize + dataSize; i++) {
-            Set(i, data[i - oldSize]);
+        for (int i = oldSize; i < oldSize + dataSize; i++) {
+            Set(i, items[i - oldSize]);
         }
     }
 
-    void Prepend(T data) override {
-        InsertAt(data, 0);
+    void Prepend(T item) override {
+        InsertAt(item, 0);
     }
 
-    void InsertAt(T data, int index) override {
+    void InsertAt(T item, int index) override {
         Resize(size + 1);
 
-        for (int i = size - 1; i > index; --i)
-        {
+        for (int i = size - 1; i > index; --i) {
             Set(i, GetElement(i - 1));
         }
 
-        Set(index, data);
+        Set(index, item);
     }
 
     void Union(ISequence<T>* dynamicArray) override {
@@ -166,5 +170,4 @@ public:
     }
 };
 
-
-#endif //DYNAMICARRAY_H
+#endif // DYNAMICARRAY_H
