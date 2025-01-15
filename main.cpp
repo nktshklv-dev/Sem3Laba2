@@ -5,56 +5,95 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
+#include <random>
+#include "DataGenerator.h"
 
 using namespace ftxui;
+
+// Функция для генерации случайных чисел
+int generateRandomNumber(int min, int max) {
+    static std::random_device rd;
+    static std::mt19937 gen(rd());
+    std::uniform_int_distribution<> distrib(min, max);
+    return distrib(gen);
+}
 
 int main() {
     auto screen = ScreenInteractive::Fullscreen();
 
     int selected_main_menu = 0;
-    std::string status_message;
-
+    int selected_data_type = 0;
+    std::string filename;  // Имя файла для неотсортированных данных
 
     std::vector<std::string> main_menu_entries = {
-        "1. Выбрать сортировку",
-        "2. Создать данные",
-        "3. Сравнить алгоритмы сортировки",
-        "4. Запустить тесты",
+        "1. Сравнить алгоритмы сортировки",
+        "2. Запустить тесты",
         "Выход"
     };
 
     auto main_menu = Menu(&main_menu_entries, &selected_main_menu);
 
-    auto main_component = CatchEvent(main_menu, [&](Event event) {
+    std::vector<std::string> data_type_entries = {
+        "1. Отсортированные данные",
+        "2. Обратно отсортированные данные",
+        "3. Случайные данные",
+        "Назад"
+    };
+
+    auto data_type_menu = Menu(&data_type_entries, &selected_data_type);
+
+    auto data_type_renderer = Renderer(data_type_menu, [&]{
+        return vbox ({
+            text("Выберите формат данных") | center | bold | color(Color::Blue),
+            separator(),
+            data_type_menu->Render(),
+            separator()
+        }) | border | center;
+    });
+
+    // Обработчик событий для data_type_renderer
+    auto data_type_component = CatchEvent(data_type_renderer, [&](Event event) {
         if (event == Event::Return) {
-            switch (selected_main_menu) {
+            switch (selected_data_type) {
                 case 0:
-                    status_message = "Выбрана сортировка!";
+
                     break;
                 case 1:
-                    status_message = "Данные созданы!";
+
                     break;
                 case 2:
-                    status_message = "Сравнение алгоритмов...";
+
                     break;
                 case 3:
-                    status_message = "Тесты запущены!";
-                    break;
-                case 4:
+                    // Возврат в главное меню
                     screen.Exit();
                     break;
-                default:
-                    status_message = "Неверный выбор!";
             }
             return true;
         }
         return false;
     });
 
-    auto result_component = Renderer([&] {
-        return text(status_message) | center | bold | color(Color::Green);
+    auto main_component = CatchEvent(main_menu, [&](Event event) {
+        if (event == Event::Return) {
+            switch (selected_main_menu) {
+                case 0:
+                    screen.Loop(data_type_component);
+                    break;
+                case 1:
+
+                    break;
+                case 2:
+                    screen.Exit();
+                    break;
+            }
+            return true;
+        }
+        return false;
     });
 
+    // Компоновка интерфейса
     auto layout = Container::Vertical({
         main_component
     });
@@ -64,8 +103,7 @@ int main() {
             text("Главное меню") | center | bold | color(Color::Blue),
             separator(),
             main_component->Render(),
-            separator(),
-            result_component->Render()
+            separator()
         }) | border | center;
     });
 

@@ -14,6 +14,7 @@ add_executable(Laba2 main.cpp
         HeapSorter.h
         Person.h
         NameDatabase.h
+        DataGenerator.h
 )
 
 target_link_libraries(Laba2 PRIVATE ftxui::screen ftxui::dom ftxui::component)

@@ -2,7 +2,7 @@
 #define PERSON_H
 
 #include <string>
-#include <cstblib>
+#include <cstdlib>
 #include <random>
 #include "NameDatabase.h"
 
@@ -15,33 +15,24 @@ private:
     int socialSecurityNumber;
     double heightInMeters;
 
+    // Генератор случайных чисел и распределения
+    static std::default_random_engine randomEngine;
+    static std::uniform_int_distribution<int> yearDistribution;
+    static std::uniform_real_distribution<double> heightDistribution;
+    static std::uniform_int_distribution<int> ssnDistribution;
 
     int generateRandomYearOfBirth() {
-        int loweBound = 1950;
-        int upperBound = 2024;
-        std::uniform_int_distribution<int> unif(loweBound, upperBound);
-        std::default_random_engine re;
-        int randomYear = unif(re);
-        return randomYear;
+        return yearDistribution(randomEngine);
     }
 
     double generateRandomHeightInMeters() {
-        double lowerBound = 1.50;
-        double upperBound = 2.00;
-        std::uniform_real_distribution<double> unif(lowerBound, upperBound);
-        std::default_random_engine re;
-        double randomHeightInMeters = unif(re);
-        return randomHeightInMeters;
+        return heightDistribution(randomEngine);
     }
 
     int generateRandomSSN() {
-        int lowerBound = 100000000;
-        int upperBound = 999999999;
-        std::uniform_real_distribution<int> unif(lowerBound, upperBound);
-        std::default_random_engine re;
-        int randomSSN = unif(re);
-        return randomSSN;
+        return ssnDistribution(randomEngine);
     }
+
 public:
     Person() {
         firstName = firstNameStorage[rand() % firstNameCount];
@@ -110,4 +101,9 @@ public:
     }
 };
 
-#endif //PERSON_H
+std::default_random_engine Person::randomEngine(std::random_device{}());
+std::uniform_int_distribution<int> Person::yearDistribution(1950, 2024);
+std::uniform_real_distribution<double> Person::heightDistribution(1.50, 2.00);
+std::uniform_int_distribution<int> Person::ssnDistribution(100000000, 999999999);
+
+#endif // PERSON_H
