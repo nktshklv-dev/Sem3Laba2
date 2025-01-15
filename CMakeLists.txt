@@ -3,6 +3,8 @@ project(Laba2)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(third_party/FTXUI)
+
 add_executable(Laba2 main.cpp
         ISequence.h
         DynamicArray.h
@@ -13,3 +15,5 @@ add_executable(Laba2 main.cpp
         Person.h
         NameDatabase.h
 )
+
+target_link_libraries(Laba2 PRIVATE ftxui::screen ftxui::dom ftxui::component)

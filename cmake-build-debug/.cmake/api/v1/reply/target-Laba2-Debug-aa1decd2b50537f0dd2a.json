@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -38,12 +45,20 @@
 					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fcolor-diagnostics"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include"
+				}
+			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
-					1
+					2
 				],
 				"standard" : "17"
 			},
@@ -51,6 +66,21 @@
 			[
 				0
 			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "screen::@39d58952d3ea1147757f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "dom::@39d58952d3ea1147757f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "component::@39d58952d3ea1147757f"
 		}
 	],
 	"id" : "Laba2::@6890427a1f51a3e7e1df",
@@ -65,6 +95,31 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/FTXUI/libftxui-screen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/FTXUI/libftxui-dom.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/FTXUI/libftxui-component.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/FTXUI/libftxui-dom.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/FTXUI/libftxui-screen.a",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
