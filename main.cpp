@@ -86,7 +86,6 @@ int main() {
                     }).detach();
                     break;
                 }
-
                 case 1:
                     loading = true;
                     spinner_frame = 0;
