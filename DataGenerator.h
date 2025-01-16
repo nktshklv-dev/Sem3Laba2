@@ -100,34 +100,4 @@ void createReverseSortedDataFile(const std::string& fileName, int data_size = 10
     }
     file.close();
 }
-
-DynamicArray<Person> loadDataFromFile(const std::string& fileName) {
-    std::ifstream file(fileName);
-    if (!file.is_open()) {
-        throw std::runtime_error("Ошибка при открытии файла");
-    }
-
-    DynamicArray<Person> persons;
-    std::string line;
-    while (std::getline(file, line)) {
-        std::stringstream ss(line);
-        std::string firstName, lastName, middleName;
-        int yearOfBirth, SSN;
-        double heightInMeters;
-        char comma;
-
-        ss >> firstName >> comma
-           >> lastName >> comma
-           >> middleName >> comma
-           >> yearOfBirth >> comma
-           >> SSN >> comma
-           >> heightInMeters;
-
-        persons.Append(Person(firstName, lastName, middleName, yearOfBirth, SSN, heightInMeters));
-    }
-
-    file.close();
-    return persons;
-}
-
 #endif // DATAGENERATOR_H

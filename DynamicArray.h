@@ -131,7 +131,7 @@ public:
         return new DynamicArray<T>(items, length);
     }
 
-    int GetLength() override {
+    int GetLength() const override {
         return size;
     }
 

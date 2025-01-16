@@ -10,7 +10,7 @@ public:
     virtual void Swap(T& a, T& b) = 0;
     virtual void Set(int index, T value) = 0;
     virtual ISequence<T>* GetSubSequence(int startIndex, int endIndex) = 0;
-    virtual int GetLength() = 0;
+    virtual int GetLength() const = 0;
     virtual void Append(T item) = 0;
     virtual void Append(T* data, int size) = 0;
     virtual void Prepend(T item) = 0;

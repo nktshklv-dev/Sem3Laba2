@@ -32,6 +32,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -591,6 +592,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -794,15 +796,18 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iterator \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/mutex \
@@ -837,6 +842,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/gethostuuid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/limits.h \
@@ -878,6 +885,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_blkcnt_t.h \
@@ -894,6 +902,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_set.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_filesec_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_gid_t.h \
@@ -915,8 +924,10 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_seek_set.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigset_t.h \
@@ -937,6 +948,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_wint_t.h \
@@ -945,17 +957,22 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_string.h \
@@ -963,6 +980,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
@@ -976,6 +994,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/animation.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/captured_mouse.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp \
@@ -1004,16 +1023,278 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/string.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/terminal.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/autoreset.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp
+  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp \
+  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/abstract.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bltinmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/boolobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytearrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytesobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/ceval.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/codecs.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/compile.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/complexobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/abstract.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytearrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytesobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/cellobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/ceval.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/classobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/code.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/compile.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/complexobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/context.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/critical_section.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/descrobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/dictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileutils.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/floatobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/funcobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/genobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/import.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/initconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/listobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/lock.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longintrepr.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/memoryobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/methodobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/modsupport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/monitoring.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/object.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/objimpl.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/odictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/picklebufobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic_gcc.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pydebug.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyerrors.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyfpe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyframe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyhash.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pylifecycle.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pymem.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pystate.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythonrun.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythread.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/setobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/sysmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/traceback.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tracemalloc.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tupleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/unicodeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/warnings.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/weakrefobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/critical_section.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/descrobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/dictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/enumobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/exports.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileutils.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/floatobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/genericaliasobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/import.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/intrcheck.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/iterobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/listobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/lock.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/longobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/memoryobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/methodobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/modsupport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/moduleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/monitoring.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/object.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/objimpl.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/osmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/patchlevel.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyatomic.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pybuffer.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pycapsule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyerrors.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyframe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyhash.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pylifecycle.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacro.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymath.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymem.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystate.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystats.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrcmp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrtod.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythonrun.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythread.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pytypedefs.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/rangeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/setobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sliceobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/structseq.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sysmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/traceback.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/tupleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/typeslots.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/unicodeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/warnings.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/weakrefobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h
 
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/weakrefobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/unicodeobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sysmodule.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/structseq.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sliceobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/rangeobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pytypedefs.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythread.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrcmp.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymath.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacro.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyhash.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyerrors.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyconfig.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/object.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/monitoring.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/moduleobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/methodobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/memoryobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/iterobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/intrcheck.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/genericaliasobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/floatobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/exports.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/dictobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/weakrefobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/unicodeobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tracemalloc.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/setobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pymem.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pylifecycle.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyhash.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyfpe.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic_gcc.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/odictobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/objimpl.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/object.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/modsupport.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/memoryobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/lock.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/listobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/initconfig.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/floatobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/dictobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/descrobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/critical_section.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/code.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/ceval.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/abstract.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/complexobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytearrayobject.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/abstract.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/terminal.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/string.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/image.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/box.hpp:
 
@@ -1027,6 +1308,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/deprecated.hpp:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h:
+
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/screen_interactive.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/receiver.hpp:
@@ -1036,6 +1319,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_options.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h:
 
@@ -1051,35 +1336,55 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wchar.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytesobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdio.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/__wctype.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/context.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/classobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wchar.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/unistd.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/wait.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/unistd.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/select.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/qos.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/errno.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/warnings.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_wint_t.h:
 
@@ -1103,15 +1408,21 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_s_ifmt.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_null.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileutils.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_intptr_t.h:
 
@@ -1137,6 +1448,10 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/complexobject.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_filesec_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_zero.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_setsize.h:
@@ -1147,7 +1462,13 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_copy.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/modsupport.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/traceback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_errno_t.h:
 
@@ -1158,6 +1479,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_select.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
@@ -1171,11 +1494,15 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythread.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/sysmodule.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
@@ -1205,6 +1532,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/malloc/_malloc_type.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pybuffer.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/signal.h:
@@ -1223,7 +1552,17 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/_OSByteOrder.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/image.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileutils.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/gethostuuid.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/ctype.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/listobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/wctype.h:
 
@@ -1281,6 +1620,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/math.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/map:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale:
@@ -1291,11 +1632,13 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iterator:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/monitoring.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/istream:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iosfwd:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios:
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bltinmodule.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/initializer_list:
 
@@ -1345,6 +1688,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/exchange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
@@ -1364,6 +1709,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/AvailabilityVersions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyframe.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
@@ -1443,6 +1790,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythonrun.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/log2.h:
@@ -1452,6 +1801,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/traceback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/array:
 
@@ -1565,7 +1916,11 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/conditional.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystats.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
@@ -1578,6 +1933,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/import.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
@@ -1625,17 +1982,23 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/methodobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__chrono/time_point.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/size.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/empty.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tree:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/dangling.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cctype:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
 
@@ -1644,6 +2007,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/concepts.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/enumobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__charconv/traits.h:
 
@@ -1691,6 +2056,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/genobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/temp_value.h:
@@ -1725,6 +2092,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/binomial_distribution.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyerrors.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/relation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy_if.h:
@@ -1749,6 +2118,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/generate_canonical.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pylifecycle.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
@@ -1770,6 +2141,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__node_handle:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/default_random_engine.h:
 
@@ -1806,6 +2179,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/midpoint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
@@ -1879,6 +2254,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/declval.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/cellobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_suseconds_t.h:
@@ -1893,6 +2270,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytesobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/different_from.h:
@@ -1901,7 +2280,11 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/funcobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
@@ -1915,9 +2298,13 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/codecs.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/empty.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uuid_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
@@ -2027,17 +2414,9 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/hash.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__system_error/errc.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/decay.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/Availability.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/default_searcher.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/critical_section.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
@@ -2060,6 +2439,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_uintmax_t.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/lock.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
@@ -2087,9 +2468,15 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/tupleobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrtod.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pystate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__exception/terminate.h:
 
@@ -2201,6 +2588,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/typeslots.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/strings.h:
@@ -2237,9 +2626,13 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tupleobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__fwd/fstream.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/descrobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
@@ -2295,6 +2688,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyframe.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__fwd/pair.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
@@ -2328,6 +2723,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__availability:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__atomic/fence.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pydebug.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/format_arg.h:
 
@@ -2419,11 +2816,17 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_wctrans_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
@@ -2432,6 +2835,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_starts_with.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pycapsule.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
@@ -2463,9 +2868,15 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__compare/ordering.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymem.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
@@ -2479,11 +2890,17 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyatomic.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/longobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytearrayobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_nlink_t.h:
 
@@ -2513,13 +2930,19 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/format_error.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/warnings.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/__wctype.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/import.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/concepts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/semiregular.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/boolobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h:
 
@@ -2547,13 +2970,11 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythonrun.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/compile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
@@ -2564,6 +2985,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
 
@@ -2580,6 +3003,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/compile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_uint64_t.h:
 
@@ -2604,6 +3029,16 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__system_error/errc.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/decay.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/Availability.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
@@ -2636,6 +3071,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
@@ -2670,6 +3107,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/compare:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/ceval.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h:
 
@@ -2753,6 +3192,18 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
@@ -2769,6 +3220,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/_types.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/patchlevel.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_uint16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
@@ -2782,10 +3235,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/priority_tag.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
@@ -2819,11 +3268,19 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/objimpl.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/picklebufobject.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longintrepr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
@@ -2867,15 +3324,13 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/_mcontext.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
@@ -2885,11 +3340,11 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/fill.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/bind.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/osmodule.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigset_t.h:
 
@@ -2921,8 +3376,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/istream:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstring:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/perms.h:
@@ -2943,6 +3396,16 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/projected.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacconfig.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/AvailabilityInternal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_ctermid.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
@@ -2951,13 +3414,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_uint8_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/projected.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/AvailabilityInternal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_ctermid.h:
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/setobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
@@ -3012,5 +3469,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/AvailabilityInternalLegacy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyport.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_wctype_t.h:

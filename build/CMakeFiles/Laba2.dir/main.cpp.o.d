@@ -928,6 +928,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/event.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/mouse.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/task.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -947,8 +948,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
@@ -996,10 +995,164 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h
+  /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/patchlevel.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacconfig.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/gethostuuid.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/exports.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacro.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymath.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymem.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pymem.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pytypedefs.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pybuffer.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystats.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyatomic.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic_gcc.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/lock.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/lock.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/object.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/object.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/objimpl.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/objimpl.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/typeslots.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyhash.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyhash.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pydebug.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytearrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytearrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytesobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytesobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/unicodeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/unicodeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyerrors.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyerrors.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/longobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longintrepr.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/boolobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/floatobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/floatobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/complexobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/complexobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/rangeobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/memoryobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/memoryobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/tupleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tupleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/listobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/listobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/dictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/dictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/odictobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/enumobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/setobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/setobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/methodobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/methodobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/moduleobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/monitoring.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/monitoring.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/funcobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/classobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pycapsule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/code.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyframe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyframe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/traceback.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/traceback.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sliceobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/cellobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/iterobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/initconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystate.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pystate.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/genobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/descrobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/descrobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/genericaliasobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/warnings.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/warnings.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/weakrefobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/weakrefobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/structseq.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/picklebufobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/codecs.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythread.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythread.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/context.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/modsupport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/modsupport.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/compile.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/compile.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythonrun.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythonrun.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pylifecycle.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pylifecycle.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/ceval.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/ceval.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sysmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/sysmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/osmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/intrcheck.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/import.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/import.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/abstract.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/abstract.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bltinmodule.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/critical_section.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/critical_section.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrtod.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrcmp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileutils.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stat.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_filesec_t.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileutils.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyfpe.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tracemalloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tree \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h

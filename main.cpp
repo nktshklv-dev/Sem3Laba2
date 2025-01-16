@@ -10,6 +10,7 @@
 #include <thread>
 #include <chrono>
 #include "DataGenerator.h"
+#include "SortComparer.h"
 
 using namespace ftxui;
 
@@ -45,7 +46,8 @@ int main() {
                 text(" "),
                 spinner(2, spinner_frame)
             }) | center;
-        } else {
+        }
+        else {
             return text("");
         }
     });
@@ -63,25 +65,27 @@ int main() {
     auto data_type_component = CatchEvent(data_type_renderer, [&](Event event) {
         if (event == Event::Return) {
             switch (selected_data_type) {
-                case 0:
+                case 0: {
                     loading = true;
                     spinner_frame = 0;
 
                     std::thread([&] {
                         auto start_time = std::chrono::steady_clock::now();
 
-                        while (std::chrono::duration_cast<std::chrono::seconds>(
-                                   std::chrono::steady_clock::now() - start_time).count() < 23) {
+                        while (std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start_time).count() < 5) {
                             spinner_frame++;
                             screen.PostEvent(Event::Custom);
                             std::this_thread::sleep_for(std::chrono::milliseconds(100));
                         }
-
                         createSortedDataFile("sorted_data.txt");
                         loading = false;
+                        DynamicArray<Person> sortedData = loadDataFromFile("sorted_data.txt", 100000);
+                        compareDataAndBuildGraph(sortedData);
                         screen.PostEvent(Event::Custom);
+
                     }).detach();
                     break;
+                }
 
                 case 1:
                     loading = true;
@@ -91,7 +95,7 @@ int main() {
                         auto start_time = std::chrono::steady_clock::now();
 
                         while (std::chrono::duration_cast<std::chrono::seconds>(
-                                   std::chrono::steady_clock::now() - start_time).count() < 23) {
+                                   std::chrono::steady_clock::now() - start_time).count() < 5) {
                             spinner_frame++;
                             screen.PostEvent(Event::Custom);
                             std::this_thread::sleep_for(std::chrono::milliseconds(100));

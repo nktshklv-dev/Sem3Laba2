@@ -33,6 +33,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/limits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/signal.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/all_of.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/any_of.h
@@ -592,6 +593,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__thread/this_thread.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__thread/thread.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__threading_support
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tree
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/pair_like.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h
@@ -795,15 +797,18 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/initializer_list
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iomanip
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iosfwd
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/istream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iterator
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/limits
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/limits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/locale.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/map
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/math.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/memory
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/mutex
@@ -838,6 +843,8 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/gethostuuid.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/arm/OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/limits.h
@@ -879,6 +886,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_select.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_symbol_aliasing.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -895,6 +903,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_set.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_setsize.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_zero.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_filesec_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsblkcnt_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_gid_t.h
@@ -916,8 +925,10 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_null.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_off_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_pid_t.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rune_t.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_s_ifmt.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_seek_set.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigaltstack.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_sigset_t.h
@@ -938,6 +949,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uid_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uintptr_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_useconds_t.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_uuid_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_va_list.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_wchar_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_wint_t.h
@@ -946,17 +958,22 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/qos.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/resource.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/select.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/signal.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stat.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/stdio.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/syslimits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/unistd.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/wait.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/time.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/unistd.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wchar.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/__wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_ctype.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdio.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdlib.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_string.h
@@ -964,6 +981,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wchar.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wctype.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h
@@ -977,6 +995,7 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h
  /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h
  /Users/nick/Documents/Labs/Sem3/Laba2/Person.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/animation.hpp
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/captured_mouse.hpp
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp
@@ -1006,4 +1025,138 @@ CMakeFiles/Laba2.dir/main.cpp.o
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/terminal.hpp
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/autoreset.hpp
  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp
+ /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/abstract.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bltinmodule.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/boolobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytearrayobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bytesobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/ceval.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/codecs.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/compile.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/complexobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/abstract.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytearrayobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/bytesobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/cellobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/ceval.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/classobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/code.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/compile.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/complexobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/context.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/critical_section.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/descrobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/dictobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileutils.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/floatobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/funcobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/genobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/import.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/initconfig.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/listobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/lock.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longintrepr.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/longobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/memoryobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/methodobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/modsupport.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/monitoring.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/object.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/objimpl.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/odictobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/picklebufobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic_gcc.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pydebug.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyerrors.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyfpe.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyframe.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyhash.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pylifecycle.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pymem.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pystate.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythonrun.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pythread.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/setobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/sysmodule.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/traceback.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tracemalloc.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/tupleobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/unicodeobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/warnings.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/weakrefobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/critical_section.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/descrobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/dictobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/enumobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/exports.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/fileutils.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/floatobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/genericaliasobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/import.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/intrcheck.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/iterobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/listobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/lock.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/longobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/memoryobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/methodobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/modsupport.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/moduleobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/monitoring.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/object.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/objimpl.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/osmodule.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/patchlevel.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyatomic.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pybuffer.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pycapsule.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyconfig.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyerrors.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyframe.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyhash.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pylifecycle.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacconfig.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymacro.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymath.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pymem.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pyport.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystate.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystats.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrcmp.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pystrtod.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythonrun.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pythread.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/pytypedefs.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/rangeobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/setobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sliceobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/structseq.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/sysmodule.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/traceback.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/tupleobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/typeslots.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/unicodeobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/warnings.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/weakrefobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h
+ /Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h
 
