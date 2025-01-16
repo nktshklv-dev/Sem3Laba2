@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_Laba2: phony || cmake_object_order_depen
 build CMakeFiles/Laba2.dir/main.cpp.o: CXX_COMPILER__Laba2_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp || cmake_object_order_depends_target_Laba2
   DEP_FILE = CMakeFiles/Laba2.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fcolor-diagnostics
-  INCLUDES = -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = CMakeFiles/Laba2.dir
   OBJECT_FILE_DIR = CMakeFiles/Laba2.dir
 
@@ -64,9 +64,9 @@ build CMakeFiles/Laba2.dir/main.cpp.o: CXX_COMPILER__Laba2_unscanned_Debug /User
 #############################################
 # Link the executable Laba2
 
-build Laba2: CXX_EXECUTABLE_LINKER__Laba2_Debug CMakeFiles/Laba2.dir/main.cpp.o | third_party/FTXUI/libftxui-screen.a third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-component.a third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-screen.a || third_party/FTXUI/libftxui-component.a third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-screen.a
+build Laba2: CXX_EXECUTABLE_LINKER__Laba2_Debug CMakeFiles/Laba2.dir/main.cpp.o | third_party/FTXUI/libftxui-screen.a third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-component.a /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-screen.a || third_party/FTXUI/libftxui-component.a third_party/FTXUI/libftxui-dom.a third_party/FTXUI/libftxui-screen.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1
-  LINK_LIBRARIES = third_party/FTXUI/libftxui-screen.a  third_party/FTXUI/libftxui-dom.a  third_party/FTXUI/libftxui-component.a  third_party/FTXUI/libftxui-dom.a  third_party/FTXUI/libftxui-screen.a
+  LINK_LIBRARIES = third_party/FTXUI/libftxui-screen.a  third_party/FTXUI/libftxui-dom.a  third_party/FTXUI/libftxui-component.a  /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib  third_party/FTXUI/libftxui-dom.a  third_party/FTXUI/libftxui-screen.a
   OBJECT_DIR = CMakeFiles/Laba2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -179,49 +179,49 @@ build cmake_object_order_depends_target_screen: phony || third_party/FTXUI/CMake
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/box.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/color.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/color_info.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/image.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/screen.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/string.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
 build third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: CXX_COMPILER__screen_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/screen/terminal.cpp || cmake_object_order_depends_target_screen
   DEP_FILE = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/screen.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/screen.dir/src/ftxui/screen
 
@@ -254,287 +254,287 @@ build cmake_object_order_depends_target_dom: phony || cmake_object_order_depends
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/automerge.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/selection_style.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/blink.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/bold.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/border.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/box_helper.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/canvas.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/clear_under.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/color.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/composite_decorator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/dbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/dim.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/flex.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/flexbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/flexbox_config.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/flexbox_helper.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/focus.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/frame.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/gauge.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/graph.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/gridbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/hbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/hyperlink.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/inverted.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/linear_gradient.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/node.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/node_decorator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/paragraph.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/reflect.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/scroll_indicator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/selection.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/separator.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/size.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/spinner.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/strikethrough.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/table.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/text.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/underlined.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/underlined_double.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/util.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
 build third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: CXX_COMPILER__dom_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/dom/vbox.cpp || cmake_object_order_depends_target_dom
   DEP_FILE = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/dom.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/dom.dir/src/ftxui/dom
 
@@ -567,168 +567,168 @@ build cmake_object_order_depends_target_component: phony || cmake_object_order_d
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/animation.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/button.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/catch_event.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/checkbox.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/collapsible.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/component.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/component_options.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/container.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/dropdown.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/event.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/hoverable.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/input.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/loop.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/maybe.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/menu.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/modal.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/radiobox.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/renderer.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/resizable_split.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/screen_interactive.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/slider.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/terminal_input_parser.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/util.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
 build third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: CXX_COMPILER__component_unscanned_Debug /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src/ftxui/component/window.cpp || cmake_object_order_depends_target_component
   DEP_FILE = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+  INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
   OBJECT_DIR = third_party/FTXUI/CMakeFiles/component.dir
   OBJECT_FILE_DIR = third_party/FTXUI/CMakeFiles/component.dir/src/ftxui/component
 
@@ -1079,14 +1079,14 @@ build third_party/FTXUI/examples/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPack.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPackComponent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Templates/CPackConfig.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui-config.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_benchmark.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_coverage.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_export.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_fuzzer.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_install.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_message.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_package.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_set_options.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_test.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/iwyu.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/doc/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/examples/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/ftxui.pc.in CMakeCache.txt CMakeFiles/3.28.6/CMakeCCompiler.cmake CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPack.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPackComponent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPython/Support.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPython3.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Templates/CPackConfig.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui-config.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_benchmark.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_coverage.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_export.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_fuzzer.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_install.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_message.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_package.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_set_options.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_test.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/iwyu.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/doc/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/examples/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/ftxui.pc.in CMakeCache.txt CMakeFiles/3.28.6/CMakeCCompiler.cmake CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPack.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPackComponent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Templates/CPackConfig.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui-config.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_benchmark.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_coverage.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_export.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_fuzzer.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_install.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_message.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_package.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_set_options.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_test.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/iwyu.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/doc/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/examples/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/ftxui.pc.in CMakeCache.txt CMakeFiles/3.28.6/CMakeCCompiler.cmake CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPack.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CPackComponent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPython/Support.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPython3.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Templates/CPackConfig.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui-config.cmake.in /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_benchmark.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_coverage.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_export.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_fuzzer.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_install.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_message.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_package.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_set_options.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/ftxui_test.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/cmake/iwyu.cmake /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/doc/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/examples/CMakeLists.txt /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/ftxui.pc.in CMakeCache.txt CMakeFiles/3.28.6/CMakeCCompiler.cmake CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake: phony
 
 
 #############################################

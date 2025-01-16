@@ -928,7 +928,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/event.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/mouse.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/task.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -948,6 +947,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
@@ -995,12 +996,10 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h
+  /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h

@@ -15,6 +15,7 @@
 			"install",
 			"include",
 			"target_link_libraries",
+			"include_directories",
 			"target_include_directories",
 			"ftxui_set_options",
 			"target_compile_features"
@@ -23,6 +24,7 @@
 		[
 			"third_party/FTXUI/CMakeLists.txt",
 			"third_party/FTXUI/cmake/ftxui_install.cmake",
+			"CMakeLists.txt",
 			"third_party/FTXUI/cmake/ftxui_set_options.cmake"
 		],
 		"nodes" : 
@@ -59,22 +61,37 @@
 				"parent" : 0
 			},
 			{
-				"command" : 5,
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
 				"file" : 0,
 				"line" : 163,
 				"parent" : 0
 			},
 			{
-				"command" : 4,
-				"file" : 2,
+				"command" : 5,
+				"file" : 3,
 				"line" : 38,
-				"parent" : 6
+				"parent" : 9
 			},
 			{
-				"command" : 6,
-				"file" : 2,
+				"command" : 7,
+				"file" : 3,
 				"line" : 44,
-				"parent" : 6
+				"parent" : 9
 			}
 		]
 	},
@@ -91,10 +108,18 @@
 			[
 				{
 					"backtrace" : 7,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include"
+				},
+				{
+					"backtrace" : 10,
 					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/src"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 10,
 					"isSystem" : true,
 					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include"
 				}
@@ -104,7 +129,7 @@
 			{
 				"backtraces" : 
 				[
-					8
+					11
 				],
 				"standard" : "17"
 			},

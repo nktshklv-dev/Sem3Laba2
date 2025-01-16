@@ -11,7 +11,9 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,13 +27,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -47,6 +67,22 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp"
+				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
@@ -113,6 +149,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "third_party/FTXUI/libftxui-dom.a",
 				"role" : "libraries"
 			},
@@ -152,7 +193,8 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -207,6 +249,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "DataGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SortingComparer.h",
 			"sourceGroupIndex" : 1
 		}
 	],

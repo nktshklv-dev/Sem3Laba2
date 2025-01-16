@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Compiler/GNU.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindPackageMessage.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindPython/Support.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindPython3.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindThreads.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/GNUInstallDirs.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"

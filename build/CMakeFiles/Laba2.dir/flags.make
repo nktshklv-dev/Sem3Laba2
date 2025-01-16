@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
+CXX_INCLUDES = -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include -I/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13 -I/Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp -isystem /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
 

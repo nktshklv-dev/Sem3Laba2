@@ -109,28 +109,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Laba2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Laba2-Debug-8b68bf577bd9e7906e72.json",
+					"jsonFile" : "target-Laba2-Debug-e96f5a92c5dedf0c478a.json",
 					"name" : "Laba2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "component::@39d58952d3ea1147757f",
-					"jsonFile" : "target-component-Debug-0237d75df8cac81f7f30.json",
+					"jsonFile" : "target-component-Debug-2da83156e401bd2a0cd3.json",
 					"name" : "component",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "dom::@39d58952d3ea1147757f",
-					"jsonFile" : "target-dom-Debug-df4d09942667a9721abc.json",
+					"jsonFile" : "target-dom-Debug-0772d88b345911152d61.json",
 					"name" : "dom",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "screen::@39d58952d3ea1147757f",
-					"jsonFile" : "target-screen-Debug-34ca8afe9fb1c1e0d700.json",
+					"jsonFile" : "target-screen-Debug-65f488c0979510f7028c.json",
 					"name" : "screen",
 					"projectIndex" : 1
 				}

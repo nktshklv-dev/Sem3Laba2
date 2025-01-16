@@ -95,6 +95,7 @@ Laba2: CMakeFiles/Laba2.dir/build.make
 Laba2: third_party/FTXUI/libftxui-screen.a
 Laba2: third_party/FTXUI/libftxui-dom.a
 Laba2: third_party/FTXUI/libftxui-component.a
+Laba2: /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib
 Laba2: third_party/FTXUI/libftxui-dom.a
 Laba2: third_party/FTXUI/libftxui-screen.a
 Laba2: CMakeFiles/Laba2.dir/link.txt
