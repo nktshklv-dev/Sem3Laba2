@@ -991,6 +991,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/SortBy.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h \
@@ -2655,6 +2656,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__atomic/aliases.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/SortBy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
 

@@ -951,6 +951,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/sstream \
   /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/SortBy.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h \

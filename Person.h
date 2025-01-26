@@ -15,7 +15,6 @@ private:
     int socialSecurityNumber;
     double heightInMeters;
 
-
     static std::default_random_engine randomEngine;
     static std::uniform_int_distribution<int> yearDistribution;
     static std::uniform_real_distribution<double> heightDistribution;
@@ -50,6 +49,46 @@ public:
         this->yearOfBirth = yearOfBirth;
         this->socialSecurityNumber = SSN;
         this->heightInMeters = heightInMeters;
+    }
+
+    bool compareByFirstName(const Person& other) const {
+        return firstName < other.firstName;
+    }
+
+    bool compareByLastName(const Person& other) const {
+        return lastName < other.lastName;
+    }
+
+    bool compareByYearOfBirth(const Person& other) const {
+        return yearOfBirth < other.yearOfBirth;
+    }
+
+    bool compareByHeight(const Person& other) const {
+        return heightInMeters < other.heightInMeters;
+    }
+
+    bool operator>(const Person& other) const {
+        return socialSecurityNumber > other.socialSecurityNumber;
+    }
+
+    bool operator<(const Person& other) const {
+        return socialSecurityNumber < other.socialSecurityNumber;
+    }
+
+    bool operator>=(const Person& other) const {
+        return socialSecurityNumber >= other.socialSecurityNumber;
+    }
+
+    bool operator<=(const Person& other) const {
+        return socialSecurityNumber <= other.socialSecurityNumber;
+    }
+
+    bool operator==(const Person& other) const {
+        return socialSecurityNumber == other.socialSecurityNumber;
+    }
+
+    bool operator!=(const Person& other) const {
+        return socialSecurityNumber != other.socialSecurityNumber;
     }
 
     std::string getFirstName() const {

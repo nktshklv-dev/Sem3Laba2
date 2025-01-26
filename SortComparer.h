@@ -10,56 +10,69 @@
 
 namespace plt = matplotlibcpp;
 
-void loadDataFromFile(const std::string& fileName, DynamicArray<Person>& persons, int data_size) {
+void loadDataFromFile(DynamicArray<Person>& persons, const std::string& fileName, int data_size) {
     std::ifstream file(fileName);
     if (!file.is_open()) {
-        throw std::runtime_error("ошибка при открытии файла");
+        throw std::runtime_error("Ошибка при открытии файла");
     }
+
+    std::cout << "Загрузка данных из файла..." << std::endl;
 
     std::string line;
     int count = 0;
     while (std::getline(file, line) && count < data_size) {
-        std::stringstream ss(line);
-        std::string firstName, lastName, middleName;
-        int yearOfBirth, SSN;
-        double heightInMeters;
-        char comma;
+        size_t pos1 = line.find(',');
+        size_t pos2 = line.find(',', pos1 + 1);
+        size_t pos3 = line.find(',', pos2 + 1);
+        size_t pos4 = line.find(',', pos3 + 1);
+        size_t pos5 = line.find(',', pos4 + 1);
 
-        ss >> firstName >> comma
-           >> lastName >> comma
-           >> middleName >> comma
-           >> yearOfBirth >> comma
-           >> SSN >> comma
-           >> heightInMeters;
+        if (pos1 == std::string::npos || pos2 == std::string::npos || pos3 == std::string::npos ||
+            pos4 == std::string::npos || pos5 == std::string::npos) {
+            throw std::runtime_error("Некорректный формат данных в файле");
+            }
+
+        std::string firstName = line.substr(0, pos1);
+        std::string lastName = line.substr(pos1 + 1, pos2 - pos1 - 1);
+        std::string middleName = line.substr(pos2 + 1, pos3 - pos2 - 1);
+        int yearOfBirth = std::stoi(line.substr(pos3 + 1, pos4 - pos3 - 1));
+        int SSN = std::stoi(line.substr(pos4 + 1, pos5 - pos4 - 1));
+        double heightInMeters = std::stod(line.substr(pos5 + 1));
 
         persons.Append(Person(firstName, lastName, middleName, yearOfBirth, SSN, heightInMeters));
         count++;
-    }
-    file.close();
-}
 
+        if (count % 5000 == 0) {
+            std::cout << "Загружено " << count << " записей..." << std::endl;
+        }
+    }
+
+    file.close();
+    std::cout << "Загрузка завершена. Всего загружено " << count << " записей." << std::endl;
+}
 template <typename T>
-double measureSortingTime(ISequence<T>* sequence, ISorter<T>& sorter) {
+double measureSortingTime(ISequence<T>* sequence, ISorter<T>& sorter, SortBy sortBy) {
     auto start = std::chrono::high_resolution_clock::now();
-    sorter.Sort(sequence);
+    sorter.Sort(sequence, sortBy);
     auto end = std::chrono::high_resolution_clock::now();
 
     return std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 }
 
-void compareSortingAlgorithms(const DynamicArray<Person>* data, std::vector<double>& sizes, std::vector<double>& insertionTimes, std::vector<double>& mergeTimes, std::vector<double>& heapTimes) {
+void compareSortingAlgorithms(const DynamicArray<Person>& data, std::vector<double>& sizes, std::vector<double>& insertionTimes, std::vector<double>& mergeTimes, std::vector<double>& heapTimes, SortBy sortBy) {
     InsertionSorter<Person> insertionSorter;
     MergeSorter<Person> mergeSorter;
     HeapSorter<Person> heapSorter;
 
     for (int size : sizes) {
-        DynamicArray<Person> copy1 = *data;
-        DynamicArray<Person> copy2 = *data;
-        DynamicArray<Person> copy3 = *data;
+        std::cout << "Идет сравнение алгоритмов для " << size << " элементов" << std::endl;
+        DynamicArray<Person> copy1 = data;
+        DynamicArray<Person> copy2 = data;
+        DynamicArray<Person> copy3 = data;
 
-        double insertionTime = measureSortingTime(&copy1, insertionSorter);
-        double mergeTime = measureSortingTime(&copy2, mergeSorter);
-        double heapTime = measureSortingTime(&copy3, heapSorter);
+        double insertionTime = measureSortingTime(&copy1, insertionSorter, sortBy);
+        double mergeTime = measureSortingTime(&copy2, mergeSorter, sortBy);
+        double heapTime = measureSortingTime(&copy3, heapSorter, sortBy);
 
         insertionTimes.push_back(insertionTime);
         mergeTimes.push_back(mergeTime);
@@ -67,19 +80,17 @@ void compareSortingAlgorithms(const DynamicArray<Person>* data, std::vector<doub
     }
 }
 
-void buildGraph( std::vector<double>& sizes, std::vector<double>& insertionTimes, std::vector<double>& mergeTimes, std::vector<double>& heapTimes) {
+void buildGraph(std::vector<double>& sizes, std::vector<double>& insertionTimes, std::vector<double>& mergeTimes, std::vector<double>& heapTimes) {
     plt::figure();
-    std::map<std::string, std::string> insertionParams = {{"label", "Insertion Sort"}};
-    std::map<std::string, std::string> mergeParams = {{"label", "Merge Sort"}};
-    std::map<std::string, std::string> heapParams = {{"label", "Heap Sort"}};
 
-    plt::plot(sizes, insertionTimes, "r-");
-    plt::plot(sizes, mergeTimes, "g-");
-    plt::plot(sizes, heapTimes, "b-");
+    plt::plot(sizes, insertionTimes, {{"label", "Insertion Sort"}, {"color", "red"}});
+    plt::plot(sizes, mergeTimes, {{"label", "Merge Sort"}, {"color", "green"}});
+    plt::plot(sizes, heapTimes, {{"label", "Heap Sort"}, {"color", "blue"}});
 
     plt::title("Сравнение сортировок");
     plt::xlabel("Количество объектов");
-    plt::ylabel("Время");
+
+    plt::ylabel("Время (мс)");
     plt::legend();
     plt::grid(true);
 
@@ -87,18 +98,20 @@ void buildGraph( std::vector<double>& sizes, std::vector<double>& insertionTimes
     plt::show();
 }
 
-void compareDataAndBuildGraph(const DynamicArray<Person>& data) {
-    std::vector<double> sizes = {10, 100, 1000, 5000, 10000, 20000, 30000, 60000, 80000, 100000};
+void compareDataAndBuildGraph(const DynamicArray<Person>& data, SortBy sortBy) {
+    int totalDataSize = data.GetLength();
+    int numberOfSections = 10;
+    std::vector<double> sizes;
     std::vector<double> insertionTimes;
     std::vector<double> mergeTimes;
     std::vector<double> heapTimes;
 
-    if (data.GetLength() < sizes.back()) {
-        throw std::runtime_error("Недостаточно данных для сравнения сортировок");
+    for (int i = 1; i <= numberOfSections; ++i) {
+        sizes.push_back((totalDataSize * i) / numberOfSections);
     }
 
-    compareSortingAlgorithms(&data, sizes, insertionTimes, mergeTimes, heapTimes);
+    compareSortingAlgorithms(data, sizes, insertionTimes, mergeTimes, heapTimes, sortBy);
+
     buildGraph(sizes, insertionTimes, mergeTimes, heapTimes);
 }
-
 
