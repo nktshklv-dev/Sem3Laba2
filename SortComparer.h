@@ -66,9 +66,15 @@ void compareSortingAlgorithms(const DynamicArray<Person>& data, std::vector<doub
 
     for (int size : sizes) {
         std::cout << "Идет сравнение алгоритмов для " << size << " элементов" << std::endl;
-        DynamicArray<Person> copy1 = data;
-        DynamicArray<Person> copy2 = data;
-        DynamicArray<Person> copy3 = data;
+
+        DynamicArray<Person> subset;
+        for (int i = 0; i < size; ++i) {
+            subset.Append(data[i]);
+        }
+
+        DynamicArray<Person> copy1 = subset;
+        DynamicArray<Person> copy2 = subset;
+        DynamicArray<Person> copy3 = subset;
 
         double insertionTime = measureSortingTime(&copy1, insertionSorter, sortBy);
         double mergeTime = measureSortingTime(&copy2, mergeSorter, sortBy);
@@ -79,7 +85,6 @@ void compareSortingAlgorithms(const DynamicArray<Person>& data, std::vector<doub
         heapTimes.push_back(heapTime);
     }
 }
-
 void buildGraph(std::vector<double>& sizes, std::vector<double>& insertionTimes, std::vector<double>& mergeTimes, std::vector<double>& heapTimes) {
     plt::figure();
 
@@ -114,4 +119,3 @@ void compareDataAndBuildGraph(const DynamicArray<Person>& data, SortBy sortBy) {
 
     buildGraph(sizes, insertionTimes, mergeTimes, heapTimes);
 }
-

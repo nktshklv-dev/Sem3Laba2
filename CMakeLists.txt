@@ -11,8 +11,6 @@ include_directories("/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.
 
 include_directories("/Users/nick/Documents/Labs/Sem3/Laba2/venv/lib/python3.13/site-packages/numpy/_core/include")
 
-add_subdirectory(third_party/FTXUI)
-
 if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-declarations")
 endif()
@@ -29,7 +27,10 @@ add_executable(Laba2 main.cpp
         DataGenerator.h
         SortComparer.h
         SortBy.h
+        PerformanceTests.h
+        FunctionalTests.h
+        Menu.h
 )
 
 target_include_directories(Laba2 PRIVATE ${Python3_INCLUDE_DIRS} third_party/matplotlib-cpp)
-target_link_libraries(Laba2 PRIVATE ftxui::screen ftxui::dom ftxui::component ${Python3_LIBRARIES})
+target_link_libraries(Laba2 PRIVATE ${Python3_LIBRARIES})

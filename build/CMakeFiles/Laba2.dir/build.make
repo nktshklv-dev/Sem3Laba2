@@ -92,12 +92,7 @@ Laba2_EXTERNAL_OBJECTS =
 
 Laba2: CMakeFiles/Laba2.dir/main.cpp.o
 Laba2: CMakeFiles/Laba2.dir/build.make
-Laba2: third_party/FTXUI/libftxui-screen.a
-Laba2: third_party/FTXUI/libftxui-dom.a
-Laba2: third_party/FTXUI/libftxui-component.a
 Laba2: /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib
-Laba2: third_party/FTXUI/libftxui-dom.a
-Laba2: third_party/FTXUI/libftxui-screen.a
 Laba2: CMakeFiles/Laba2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nick/Documents/Labs/Sem3/Laba2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Laba2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Laba2.dir/link.txt --verbose=$(VERBOSE)

@@ -769,6 +769,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/bit \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cerrno \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/chrono \
@@ -984,12 +985,15 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DataGenerator.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/FunctionalTests.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/ISorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/Menu.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
+  /Users/nick/Documents/Labs/Sem3/Laba2/PerformanceTests.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/SortBy.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h \
@@ -1263,7 +1267,11 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/PerformanceTests.h:
+
 /Users/nick/Documents/Labs/Sem3/Laba2/MergeSorter.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/Menu.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/InsertionSorter.h:
 
@@ -1272,6 +1280,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/ISequence.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/HeapSorter.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/FunctionalTests.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/DynamicArray.h:
 
@@ -2852,6 +2862,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/import.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/concepts.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cassert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 

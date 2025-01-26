@@ -87,6 +87,12 @@ public:
         return data[index];
     }
 
+    const T& operator[](int index) const
+    {
+        return data[index];
+    }
+
+
     T& GetFirstElement() override {
         return GetElement(0);
     }
