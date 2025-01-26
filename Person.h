@@ -15,7 +15,7 @@ private:
     int socialSecurityNumber;
     double heightInMeters;
 
-     
+
     static std::default_random_engine randomEngine;
     static std::uniform_int_distribution<int> yearDistribution;
     static std::uniform_real_distribution<double> heightDistribution;
