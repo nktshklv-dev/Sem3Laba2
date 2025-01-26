@@ -777,7 +777,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/compare \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/concepts \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstdint \
@@ -788,7 +787,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cwctype \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/exception \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/execution \
@@ -815,7 +813,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/sstream \
@@ -995,35 +992,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
   /Users/nick/Documents/Labs/Sem3/Laba2/NameDatabase.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/Person.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/animation.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/captured_mouse.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_base.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_options.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/event.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/mouse.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/receiver.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/screen_interactive.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/task.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/canvas.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/deprecated.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/direction.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/elements.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/flexbox_config.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/linear_gradient.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/node.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/requirement.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/selection.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/take_any_args.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/box.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/color.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/image.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/pixel.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/screen.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/string.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/terminal.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/autoreset.hpp \
-  /Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp \
   /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h \
   /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/abstract.h \
@@ -1234,6 +1202,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/setobject.h:
 
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h:
+
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pymem.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pylifecycle.h:
@@ -1241,6 +1211,8 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyhash.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyfpe.h:
+
+/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyatomic_gcc.h:
 
@@ -1287,38 +1259,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/Python.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/third_party/matplotlib-cpp/matplotlibcpp.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pytime.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/ref.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/terminal.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/string.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/box.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/selection.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/node.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/linear_gradient.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/elements.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/deprecated.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/pyctype.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/screen_interactive.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/receiver.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/event.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_options.hpp:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component.hpp:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/SortComparer.h:
 
@@ -1552,8 +1492,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/image.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/cpython/fileutils.h:
@@ -1600,11 +1538,7 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ratio:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/direction.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/random:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/queue:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/optional:
 
@@ -1637,6 +1571,10 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/istream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iosfwd:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios:
 
 /Users/nick/Documents/Labs/Sem3/Laba2/venv/include/python3.13/bltinmodule.h:
 
@@ -1675,8 +1613,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cwctype:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/requirement.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
 
@@ -1854,8 +1790,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/util/autoreset.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
@@ -1912,8 +1846,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/canvas.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream:
@@ -1968,8 +1900,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__thread/formatter.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/color.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__split_buffer:
@@ -2022,13 +1952,9 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/take_any_args.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/seed_seq.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/mouse.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/ranlux.h:
 
@@ -2158,8 +2084,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/component_base.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/voidify.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__bit/byteswap.h:
@@ -2209,8 +2133,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/screen.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/allocator.h:
 
@@ -2378,8 +2300,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__fwd/array.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/deque:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
@@ -2399,8 +2319,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__charconv/tables.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/screen/pixel.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
@@ -2742,8 +2660,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/dom/flexbox_config.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/exception_guard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/thread:
@@ -2816,10 +2732,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_wctrans_t.h:
@@ -2861,8 +2773,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/animation.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
 
@@ -3042,8 +2952,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/captured_mouse.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/formatter_output.h:
@@ -3095,8 +3003,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/none_of.h:
-
-/Users/nick/Documents/Labs/Sem3/Laba2/third_party/FTXUI/include/ftxui/component/task.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
 
@@ -3229,8 +3135,6 @@ CMakeFiles/Laba2.dir/main.cpp.o: /Users/nick/Documents/Labs/Sem3/Laba2/main.cpp 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/bind_front.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/condition_variable:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__utility/priority_tag.h:
 

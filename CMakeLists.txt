@@ -28,6 +28,7 @@ add_executable(Laba2 main.cpp
         NameDatabase.h
         DataGenerator.h
         SortComparer.h
+        SortBy.h
 )
 
 target_include_directories(Laba2 PRIVATE ${Python3_INCLUDE_DIRS} third_party/matplotlib-cpp)

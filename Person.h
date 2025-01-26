@@ -15,7 +15,7 @@ private:
     int socialSecurityNumber;
     double heightInMeters;
 
-    // Генератор случайных чисел и распределения
+     
     static std::default_random_engine randomEngine;
     static std::uniform_int_distribution<int> yearDistribution;
     static std::uniform_real_distribution<double> heightDistribution;
@@ -50,30 +50,6 @@ public:
         this->yearOfBirth = yearOfBirth;
         this->socialSecurityNumber = SSN;
         this->heightInMeters = heightInMeters;
-    }
-
-    bool operator < (const Person& other) const {
-        return socialSecurityNumber < other.socialSecurityNumber;
-    }
-
-    bool operator > (const Person& other) const {
-        return socialSecurityNumber > other.socialSecurityNumber;
-    }
-
-    bool operator <= (const Person& other) const {
-        return socialSecurityNumber <= other.socialSecurityNumber;
-    }
-
-    bool operator >= (const Person& other) const {
-        return socialSecurityNumber >= other.socialSecurityNumber;
-    }
-
-    bool operator == (const Person& other) const {
-        return socialSecurityNumber == other.socialSecurityNumber;
-    }
-
-    bool operator != (const Person& other) const {
-        return socialSecurityNumber != other.socialSecurityNumber;
     }
 
     std::string getFirstName() const {

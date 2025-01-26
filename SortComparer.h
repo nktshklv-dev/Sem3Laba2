@@ -10,13 +10,12 @@
 
 namespace plt = matplotlibcpp;
 
-DynamicArray<Person> loadDataFromFile(const std::string& fileName, int data_size) {
+void loadDataFromFile(const std::string& fileName, DynamicArray<Person>& persons, int data_size) {
     std::ifstream file(fileName);
     if (!file.is_open()) {
         throw std::runtime_error("ошибка при открытии файла");
     }
 
-    DynamicArray<Person> persons;
     std::string line;
     int count = 0;
     while (std::getline(file, line) && count < data_size) {
@@ -37,7 +36,6 @@ DynamicArray<Person> loadDataFromFile(const std::string& fileName, int data_size
         count++;
     }
     file.close();
-    return persons;
 }
 
 template <typename T>

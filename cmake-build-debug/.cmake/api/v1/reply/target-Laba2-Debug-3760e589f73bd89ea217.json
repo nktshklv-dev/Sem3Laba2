@@ -33,7 +33,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 33,
+				"line" : 34,
 				"parent" : 0
 			}
 		]
@@ -194,7 +194,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -254,6 +255,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "SortComparer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SortBy.h",
 			"sourceGroupIndex" : 1
 		}
 	],
